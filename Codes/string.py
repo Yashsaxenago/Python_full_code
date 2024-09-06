@@ -13,3 +13,35 @@ for character in name:
 for letter in age:
     print(letter)
 
+# strings method or different type of function
+
+a="yash is lonely !!!!"
+print(a)
+print(len(a))
+print(a.upper())
+print(a.lower())
+print(a.rstrip("!"))
+print(a.replace("lonely","not lonely anymore"))
+
+#  split() it convert your string into list
+print(a.split(" "))
+
+# to convert a string into heading
+print(a.capitalize())
+
+# to make space between yor string or you can say put your into center
+str="this is a string"
+print(len(str))
+print(str.center(50))
+#count => this method returns number of times the given value has occured
+str1="this is not good for this is what happens"
+print(str1.count("this"))
+
+# endswitch method check if the string end with a given value
+print(str.endswith("string"))
+print(str.find("a"))
+print(str.index("string"))
+# string contain only A-Z,a-z,0-9
+print(str.isalnum())
+# string contain only A-Z,a-z
+print(str.isalpha())
