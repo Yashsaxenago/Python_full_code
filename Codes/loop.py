@@ -21,3 +21,15 @@ for n in range(1,9,2):
  print(n)
 
  #while loop
+
+number=0
+while(number<10):
+    print("number is : " ,number)
+    number= number+1
+
+nums= 20
+while(nums>0):
+    print("the value os nums is :", nums)
+    nums=nums-5
+else:
+    print("i am out of the loop")
