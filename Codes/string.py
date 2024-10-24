@@ -13,6 +13,24 @@ for character in name:
 for letter in age:
     print(letter)
 
+#important : fstring
+
+value="yash"
+age=25
+
+val=f"my name is {value} and my age is {age}" 
+print(val)
+
+# docstrings in python
+
+def NumTwoDigit(n):
+    ''' take 2 numbers and multiply of it'''  #docstring is not a comments
+    return (n*5)
+
+print(NumTwoDigit(5))
+print(NumTwoDigit.__doc__)
+
+
 # strings method or different type of function
 
 a="yash is lonely !!!!"
